@@ -12,7 +12,7 @@ This Python script performs various data analysis tasks on a dataset containing 
 
 Features
 - Population Analysis: Determines key statistics, including most and least populated countries.
-- **Area-Based Calculations: Processes data to calculate the average and standard deviation of populations and areas.
+- Area-Based Calculations: Processes data to calculate the average and standard deviation of populations and areas.
 - Data Filtering: Focuses analysis on specific regions as defined by the user.
 
 Technologies Used
@@ -23,9 +23,7 @@ How to Run
 1. Ensure you have Python installed on your system.
 2. Place the input data file in the same directory as the script.
 3. Run the script with the command:
-   ```bash
    python Python_Project1.py
-   ```
 4. Follow the prompts to input the desired region for analysis.
 
 ## Project 2: Regional Population Analysis
