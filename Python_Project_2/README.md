@@ -1,6 +1,7 @@
-Python Overview
-Project 1: Population Analysis
-Description This Python script performs various data analysis tasks on a dataset containing population information. The main focus is on analyzing population and area data to derive insights such as:
+**Python Overview
+
+**Project 1: Population Analysis
+**Description This Python script performs various data analysis tasks on a dataset containing population information. The main focus is on analyzing population and area data to derive insights such as:
 
 Identifying the most and least populated countries within a specified region.
 Calculating the standard deviation of populations within a region.
@@ -20,8 +21,9 @@ Ensure you have Python installed on your system.
 Place the input data file in the same directory as the script.
 Run the script with the command: python Python_Project1.py
 Follow the prompts to input the desired region for analysis.
-Project 2: Regional Population Analysis
-Description This Python project is designed to analyze population data from a CSV file and compute various statistical measures. The primary outputs are:
+
+**Project 2: Regional Population Analysis
+**Description This Python project is designed to analyze population data from a CSV file and compute various statistical measures. The primary outputs are:
 
 The standard error of the population for each region.
 Cosine similarity between population and land area for each region.
