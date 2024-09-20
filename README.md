@@ -58,5 +58,6 @@ This folder contains projects related to SQL and database management. The focus 
    git clone https://github.com/your-username/UNI_PROJECTS.git
    cd UNI_PROJECTS
 2. **Navigate to the specific project folder:**
+   ```bash
    cd C_Project
-3. **Follow the instructions in each project's README file for details on how to run the projects.**
+4. **Follow the instructions in each project's README file for details on how to run the projects.**
