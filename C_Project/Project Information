@@ -1,5 +1,5 @@
 
-# Project Description
+Project Description
 We're all very familiar with higher-level programming languages, such as Python, Java, and C. They have many well-defined features, and are supported by standard libraries and modules. We'll term these large-languages.
 At the other end of the scale are mini-languages, that are often embedded in other programs that don't require the support of a full programming language, or are invoked from the command-line or in a shellscript. You could consider the use of macros in MS-Excel, or the Unix command-line program bc (see man bc), as examples of a mini-languages. Chapter 8 of The Art of Unix Programming provides an overview of some (older) mini-languages [not required reading].
 
@@ -10,7 +10,7 @@ Writing a compiler for any programming language is an enormous task, clearly not
 The goal of this project is to implement a C11 program, named runml, which accepts a single command-line argument providing the pathname of a text file containing a program written in ml, [added 28/8] and any optional command-line arguments to be passed the transpiled program when it is executed . Successful execution of runml will involve checking the syntax of the ml program, translating that valid ml program to a C11 program, compilation of the resultant C program and, finally, execution of the compiled program. 
 
 
-# Our ml language
+Our ml language
 programs are written in text files whose names end in .ml
 statements are written one-per-line (with no terminating semi-colon)
 the character '#' appearing anywhere on a line introduces a comment which extends until the end of that line
@@ -25,7 +25,7 @@ functions may have zero-or-more formal parameters
 a function's parameters and any other identifiers used in a function body are local to that function, and become unavailable when the function's execution completes
 programs execute their statements from top-to-bottom and function calls are the only form of control-flow (yes, the language would be more useful with loops and conditions, but this project is not about designing programming languages - future work for those interested)
 
-# The steps to compile and execute an ml program
+The steps to compile and execute an ml program
 Edit a text file named, for example, program.ml
 Pass program.ml as a command-line argument to your runml program
 runml validates the ml program, reporting any errors
@@ -34,7 +34,7 @@ runml uses your system's C11 compiler to compile ml-12345.c
 runml executes the compiled C11 program ml-12345, passing any optional command-line arguments (real numbers)
 runml removes any files that it created
 
-# The ml syntax
+The ml syntax
   |       means a choice
   [...]   means zero or one
   (...)*  means zero or more
