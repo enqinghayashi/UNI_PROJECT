@@ -36,8 +36,8 @@ This folder contains Java-based projects, focusing on object-oriented programmin
 This folder contains Python-based projects, with applications ranging from data analysis to scripting and automation.
 
 #### Example Projects:
-- **DataAnalyzer**: A Python program to analyze and visualize datasets using libraries like Pandas and Matplotlib.
-- **WebScraper**: A Python-based web scraper that gathers data from websites using `requests` and `BeautifulSoup`.
+- **Population Analysis**
+- **Regional Population Analysis**
 
 ---
 
