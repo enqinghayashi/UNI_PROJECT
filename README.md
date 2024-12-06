@@ -35,6 +35,13 @@ This folder contains projects related to the C programming language. The focus i
 This project highlights the use of collections, control structures, and efficient algorithms for solving real-world challenges.  
 
 
+
+
+
+
+
+---
+
 ### Python_Project
 
 This folder contains Python-based projects, with applications ranging from data analysis to scripting and automation.
