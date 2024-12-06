@@ -47,11 +47,9 @@ This project highlights the use of collections, control structures, and efficien
 This folder contains Python-based projects, with applications ranging from data analysis to scripting and automation.
 
 #### Example Projects:
-### **1. Population Analysis**  
-Analyzes population and area data to identify the most and least populated countries within a specified region, calculate statistical measures, and provide insights.  
+ - **Population Analysis**  : Analyzes population and area data to identify the most and least populated countries within a specified region, calculate statistical measures, and provide insights.  
 
-### **2. Regional Population Analysis**  
-Processes population data from a CSV file to compute regional statistics, such as standard error and cosine similarity, using nested dictionaries for data organization.  
+ - **Regional Population Analysis**  : Processes population data from a CSV file to compute regional statistics, such as standard error and cosine similarity, using nested dictionaries for data organization.  
 
 
 
@@ -65,9 +63,12 @@ Processes population data from a CSV file to compute regional statistics, such a
 This folder contains projects related to SQL and database management. The focus is on writing queries, creating and managing databases, and handling data efficiently.
 
 #### Example Projects:
-- **DatabaseDesign**: An example SQL project involving the design and implementation of a relational database.
-- **AdvancedQueries**: A collection of advanced SQL queries that demonstrate complex data retrieval techniques.
+ - **Customer and Phone Rental Management**  : A SQLite database project for managing customer and phone rental operations. The database includes information about customers, phone models, individual phones, and rental contracts, enabling various operations like tracking rentals, costs, and customer details.
 
+#### Key Features  
+- **Customer Management**: Stores customer details like ID, name, and email.  
+- **Phone Models**: Maintains data on phone models, including specifications such as storage and color.  
+- **Rental Contracts**: Links customers with phones, tracks rental periods, and calculates costs.  
 ---
 
 ## How to Use
