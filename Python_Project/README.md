@@ -30,7 +30,7 @@ This project performs data analysis on population information to derive meaningf
 4. Follow the prompts to specify the region for analysis.
 
 
-### **2. Regional Population Analysis
+### 2. Regional Population Analysis
 #### Description
 This project analyzes population data from a CSV file and computes advanced statistical measures. The key outputs are:
 
