@@ -23,12 +23,16 @@ This folder contains projects related to the C programming language. The focus i
 
 ### Java_Project
 
-This folder contains Java-based projects, focusing on object-oriented programming, data structures, and algorithms.
+### Example Project  
 
-#### Example Projects:
-- **Project1**: A simple Java application showcasing basic OOP concepts like inheritance, polymorphism, and encapsulation.
-- **Project2**: An advanced Java project focusing on multithreading and concurrency.
+**Message Delivery Status Tracker**  
+- A Java application that determines whether messages should be delivered or dropped based on their timestamps and a configurable delay threshold \(k\).  
+- **Key Features**:  
+  - Uses a HashMap to track the last delivery time for each message.  
+  - Compares the current timestamp with the last delivery time to decide delivery status.  
+  - Returns a list of `"true"` or `"false"` indicating delivery (`"true"`) or drop (`"false"`) for each message.  
 
+This project highlights the use of collections, control structures, and efficient algorithms for solving real-world challenges.  
 ---
 
 ### Python_Project
