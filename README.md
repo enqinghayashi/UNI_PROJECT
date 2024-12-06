@@ -32,8 +32,8 @@ This folder contains projects related to the C programming language. The focus i
   - Compares the current timestamp with the last delivery time to decide delivery status.  
   - Returns a list of `"true"` or `"false"` indicating delivery (`"true"`) or drop (`"false"`) for each message.  
 
-This project highlights the use of collections, control structures, and efficient algorithms for solving real-world challenges.  
----
+**This project highlights the use of collections, control structures, and efficient algorithms for solving real-world challenges.  
+**---
 
 ### Python_Project
 
