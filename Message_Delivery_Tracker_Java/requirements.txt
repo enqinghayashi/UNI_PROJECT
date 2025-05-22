@@ -1,0 +1,20 @@
+# System Dependencies for Message_Delivery_Tracker_Java
+
+## Java Development Kit (JDK)
+- Java Development Kit (JDK) version 8 or higher is required.
+  - Ensure JDK is installed.
+  - `JAVA_HOME` environment variable should be set.
+  - JDK's `bin` directory should be in the system's PATH.
+
+## Build Instructions (Example for simple project)
+- To compile (e.g., `YourMainClass.java`):
+  `javac YourMainClass.java`
+- To run:
+  `java YourMainClass`
+
+## Build Tools (Optional)
+- If using Maven: `pom.xml` will define dependencies.
+- If using Gradle: `build.gradle` will define dependencies.
+
+# Notes
+This project's primary dependency is the JDK. External Java libraries would typically be managed by Maven or Gradle, not a requirements.txt file.

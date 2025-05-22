@@ -1,36 +1,73 @@
-# C Project: runml - Mini-Language Transpiler
+# Mini-Language (ML) to C Transpiler (`runml`)
 
-## Project Description
-We're all familiar with higher-level programming languages like Python, Java, and C. But this project focuses on a mini-language (ml) designed for basic real-number operations and function calls. The goal is to write a C11 program, `runml`, that transpiles ml code to C, compiles the generated C code, and executes it.
+## 📖 Project Description
+This project features `runml`, a command-line tool written in C11. Its core function is to process a custom mini-language (ml), which is designed for basic real-number operations and function calls. The `runml` tool transpiles `ml` source code into equivalent C11 code, then leverages a system C compiler (like `gcc` or `clang`) to compile the generated C code, and finally executes the resulting program. This project demonstrates key concepts in language processing, including lexical analysis (tokenization), parsing, code generation, and interaction with system tools.
 
-## Features
-- Transpiles ml programs to C11 code.
-- Uses a system compiler to compile the generated C code.
-- Executes the compiled program with command-line arguments.
+---
 
-## Steps to Use
+## ✨ Key Features
+-   **Transpilation**: Converts programs written in the mini-language (`.ml` files) into C11 source code.
+-   **Automated Compilation**: Invokes the system's C compiler to build an executable from the transpiled C code.
+-   **Execution**: Runs the compiled program, with support for passing command-line arguments to the `ml` program.
+-   **Basic Syntax Validation**: Performs initial checks on the `ml` source code for syntactic correctness.
 
-1. **Compile the `runml` program:**
-   Use the following command to compile the `runml.c` file:
-   ```bash
-   cc -std=c11 -Wall -Werror -o runml runml.c
+---
 
-This will create an executable named runml.
+## ⚙️ Technologies Used
+-   **Primary Language**: C11
+-   **Compiler for `runml`**: Standard C compiler (e.g., GCC, Clang)
+-   **Compiler for Transpiled Code**: System C compiler (e.g., GCC, Clang)
 
-Run the runml program with an .ml file: Once the runml program is compiled, you can run it by passing an ml program file as an argument. For example:
-./runml sample.ml
-runml will:
-Check for syntax errors in the sample.ml program.
-Transpile the valid ml code to C code.
-Compile the transpiled C code.
-Execute the compiled C program.
-Optional: Pass additional arguments to the ml program: If your ml program requires command-line arguments, you can pass them after the .ml file:
-./runml sample.ml arg1 arg2 ...
-## Example
-Suppose you have an ml file named example.ml, you would follow these steps to compile and run it:
-# Step 1: Compile the runml program
+---
+
+## 🚀 Setup and Usage
+
+### 1. Prerequisites
+-   A C11 compatible compiler (e.g., `gcc` or `clang`) must be installed and accessible in your system's PATH.
+
+### 2. Compile `runml`
+Navigate to the `ML_Transpiler_C` directory (or the current project directory) in your terminal and compile the `runml.c` source file:
+```bash
 cc -std=c11 -Wall -Werror -o runml runml.c
+```
+This command creates an executable file named `runml` in the current directory.
 
-# Step 2: Run the ml program
+### 3. Run an `ml` Program
+Once `runml` is compiled, you can use it to transpile, compile, and execute your `.ml` programs.
+
+**Syntax:**
+```bash
+./runml your_program.ml [argument1 argument2 ...]
+```
+
+**Process:**
+1.  `runml` reads and validates `your_program.ml`.
+2.  If valid, it transpiles the `ml` code into an intermediate C source file.
+3.  It then compiles this C file using the system compiler to produce an executable.
+4.  Finally, it executes this program, passing any additional `[argument1 argument2 ...]` as command-line arguments to your `ml` program's `main` function.
+
+---
+
+## 📝 Example
+
+Suppose you have an `ml` file named `example.ml`.
+
+**Step 1: Compile the `runml` transpiler (if not already done)**
+```bash
+cc -std=c11 -Wall -Werror -o runml runml.c
+```
+
+**Step 2: Run your `ml` program using `runml`**
+```bash
 ./runml example.ml
+```
+If `example.ml` is designed to accept command-line arguments (e.g., two numbers to add):
+```bash
+./runml example.ml 10 25
+```
+
+---
+
+## 📄 License
+This project is licensed under the MIT License. See the main [LICENSE](../../LICENSE) file for details.
 

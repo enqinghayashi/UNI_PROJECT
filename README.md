@@ -1,73 +1,65 @@
-# UNI_PROJECTS
+# University Projects Showcase
 
-This repository contains my small university projects across different programming languages. Each project is organized into its own folder, with a focus on distinct programming languages and topics. Below is an overview of the projects included.
+Welcome to my University Projects repository! This collection showcases a variety of small projects developed across different programming languages and domains during my university studies. Each project is organised into its respective folder.
 
-## Overview
 ---
 
+## 📚 Projects Overview
+
+Below is an overview of the projects included in this repository:
+
 ### C_Project
-
-
-[**ML Transpiler**](./C_Project)
-- **runml**: A transpiler written in C11 that translates a mini-language (ml) into C, compiles it, and executes the generated program. 
-  - [The Project README](./C_Project/README.md) - Contains more detailed instructions for the `runml` project.
+**[Mini-Language (ML) to C Transpiler (`runml`)](./ML_Transpiler_C)**
+- A C11 tool to transpile, compile, and execute programs written in a custom mini-language (ml).
+- For more details, see the [C Project README](./ML_Transpiler_C/README.md).
 
 ---
 
 ### Java_Project
-
-
-[**Message Delivery Status Tracker**](./Java_Project)
-- A Java application that determines whether messages should be delivered or dropped based on their timestamps and a configurable delay threshold \(k\).  
-- **Key Features**:  
-  - Uses a HashMap to track the last delivery time for each message.  
-  - Compares the current timestamp with the last delivery time to decide delivery status.  
-  - Returns a list of `"true"` or `"false"` indicating delivery (`"true"`) or drop (`"false"`) for each message.  
-
-This project highlights the use of collections, control structures, and efficient algorithms for solving real-world challenges.  
-
-
-
-
-
-
+**[Timestamp-based Message Delivery Filter](./Message_Delivery_Tracker_Java)**
+- Java application that filters messages for delivery or drop based on timestamps and a configurable delay threshold.
+- For more details, see the [Java Project README](./Message_Delivery_Tracker_Java/README.md).
 
 ---
 
 ### Python_Project
-
-
-[**Worldwide Population Analaysis Tool**](./Python_Project)
- - **Population Analysis**  : Analyzes population and area data to identify the most and least populated countries within a specified region, calculate statistical measures, and provide insights.  
-
- - **Regional Population Analysis**  : Processes population data from a CSV file to compute regional statistics, such as standard error and cosine similarity, using nested dictionaries for data organization.  
-
-
-
-
-
+**[Python Population Data Analyzer](./Population_Analysis_Python)**
+- Python scripts for comprehensive population and area data analysis.
+  - Includes regional statistics, country-specific insights, standard error, and cosine similarity calculations.
+- For more details, see the [Python Project README](./Population_Analysis_Python/README.md).
 
 ---
 
 ### SQL_Project
+**[SQLite Phone Rental Management System](./Phone_Rental_DB_SQL)**
+- A SQLite database for managing customers, phone models, inventory, and rental contracts in a phone rental business.
+- For more details, see the [SQL Project README](./Phone_Rental_DB_SQL/README.md).
 
-
-[**Phone Rental Database Management**](./SQL_Project)
- - **Customer and Phone Rental Management**  : A SQLite database project for managing customer and phone rental operations. The database includes information about customers, phone models, individual phones, and rental contracts, enabling various operations like tracking rentals, costs, and customer details.
-
-#### Key Features  
-- **Customer Management**: Stores customer details like ID, name, and email.  
-- **Phone Models**: Maintains data on phone models, including specifications such as storage and color.  
-- **Rental Contracts**: Links customers with phones, tracks rental periods, and calculates costs.  
 ---
 
-## How to Use
+## 🚀 How to Use
 
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/your-username/UNI_PROJECTS.git
-   cd UNI_PROJECTS
-2. **Navigate to the specific project folder:**
-   ```bash
-   cd C_Project
-4. **Follow the instructions in each project's README file for details on how to run the projects.**
+1.  **Clone the repository:**
+    ```bash
+    git clone https://github.com/enqinghayashi/UNI_PROJECT
+    cd UNI_PROJECTS
+    ```
+
+2.  **Navigate to a specific project folder:**
+    ```bash
+    cd ML_Transpiler_C 
+    # or cd Message_Delivery_Tracker_Java, cd Population_Analysis_Python, cd Phone_Rental_DB_SQL
+    ```
+
+3.  **Follow Instructions:**
+    Each project folder contains its own `README.md` file with specific instructions on how to set up, run, and use the project.
+
+---
+
+## 📄 License
+
+This repository and its contents are licensed under the [MIT License](./LICENSE) (unless specified otherwise in a sub-project's README). Please create a `LICENSE` file with the MIT License text if you wish to use this.
+
+---
+
+

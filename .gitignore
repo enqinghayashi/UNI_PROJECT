@@ -1,0 +1,70 @@
+# General
+.DS_Store
+*.log
+*.tmp
+*.swp
+
+# IDE specific
+.vscode/
+.idea/
+*.iml
+*.project
+*.classpath
+
+# Compiled files
+*.o
+*.exe
+*.out
+*.class
+*.jar
+*.dll
+*.so
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+ENV/
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage
+.hypothesis/
+.pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+*.egg-info/
+dist/
+build/
+develop-eggs/
+eggs/
+sdist/
+var/
+*.manifest
+*.spec
+
+# SQLite
+*.db-journal
+*.sqlite3-journal
+
+# C specific (if any build artifacts are not covered by *.o, *.exe, *.out)
+# e.g., specific build directories if you use CMake or Make outside source
+# build/
+
+# Java specific (if any build artifacts are not covered by *.class, *.jar)
+# e.g., target/ for Maven or build/ for Gradle
+target/
+# build/ # Uncomment if you use Gradle and want to ignore its build dir
+
+# Node.js (if ever used for tooling)
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+package-lock.json
+yarn.lock

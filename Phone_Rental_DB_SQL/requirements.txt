@@ -1,0 +1,16 @@
+# System/Tool Dependencies for Phone_Rental_DB_SQL
+
+## SQLite 3
+- An SQLite 3 compatible command-line shell or a GUI-based SQLite database management tool is required to interact with the database file (e.g., `projects.db` or `phone_rental.db`).
+
+## Recommended Tools:
+- **Command-Line:**
+  - `sqlite3` (often pre-installed on Linux/macOS, downloadable for Windows from sqlite.org)
+- **GUI Tools:**
+  - DB Browser for SQLite (sqlitebrowser.org)
+  - SQLiteStudio
+  - DBeaver
+  - Visual Studio Code with an SQLite extension
+
+# Notes
+This project involves interacting with an SQLite database file. There are no programming language packages to install via a package manager like pip for this core functionality. The "requirements" are the tools needed to access and manage the SQLite database.

@@ -1,0 +1,12 @@
+# System Dependencies for ML_Transpiler_C
+
+## Compiler
+- A C11 compatible C compiler is required (e.g., GCC, Clang).
+  - Ensure the compiler is installed and accessible via the system's PATH.
+
+## Build Instructions
+- To compile `runml.c`:
+  `cc -std=c11 -Wall -Werror -o runml runml.c`
+
+# Notes
+This project does not use a package manager like pip. Dependencies are system-level tools.
