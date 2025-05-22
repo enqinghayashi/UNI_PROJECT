@@ -11,14 +11,14 @@ Below is an overview of the projects included in this repository:
 ### C_Project
 **[Mini-Language (ML) to C Transpiler (`runml`)](./ML_Transpiler_C)**
 - A C11 tool to transpile, compile, and execute programs written in a custom mini-language (ml).
-- For more details, see the [C Project README](./ML_Transpiler_C/README.md).
+- For more details, see the [C Project README](./C_Project/README.md).
 
 ---
 
 ### Java_Project
 **[Timestamp-based Message Delivery Filter](./Message_Delivery_Tracker_Java)**
 - Java application that filters messages for delivery or drop based on timestamps and a configurable delay threshold.
-- For more details, see the [Java Project README](./Message_Delivery_Tracker_Java/README.md).
+- For more details, see the [Java Project README](./Java_Project/README.md).
 
 ---
 
@@ -26,14 +26,14 @@ Below is an overview of the projects included in this repository:
 **[Python Population Data Analyzer](./Population_Analysis_Python)**
 - Python scripts for comprehensive population and area data analysis.
   - Includes regional statistics, country-specific insights, standard error, and cosine similarity calculations.
-- For more details, see the [Python Project README](./Population_Analysis_Python/README.md).
+- For more details, see the [Python Project README](./Python_Project/README.md).
 
 ---
 
 ### SQL_Project
 **[SQLite Phone Rental Management System](./Phone_Rental_DB_SQL)**
 - A SQLite database for managing customers, phone models, inventory, and rental contracts in a phone rental business.
-- For more details, see the [SQL Project README](./Phone_Rental_DB_SQL/README.md).
+- For more details, see the [SQL Project README](./SQL_Project/README.md).
 
 ---
 
